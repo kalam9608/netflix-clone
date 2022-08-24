@@ -13,7 +13,6 @@ const Banner = () => {
       const data = await fetch(url);
 
       const parsedata = await data.json();
-      console.log("this is banner ", parsedata.results);
 
       setMovie(
         parsedata.results[Math.floor(Math.random() * parsedata.results.length)]

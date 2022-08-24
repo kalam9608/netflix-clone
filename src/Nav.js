@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 const Nav = () => {
 
   const [show, handleshow] = useState(false);
-// NAV BAR EFFECT
+//FOR NAV BAR EFFECT
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 200) {

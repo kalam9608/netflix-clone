@@ -5,7 +5,7 @@ import YouTube from "react-youtube";
 import "./Row.css";
 // import axios from 'axios';
 
-const base_url = "http://image.tmdb.org/t/p/original";
+const base_url = "http://image.tmdb.org/t/p/original";  // FOR IMAGE URL
 
 const Row = (props) => {
   // destructuring of props
