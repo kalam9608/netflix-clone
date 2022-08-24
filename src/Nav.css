@@ -1,0 +1,59 @@
+.nav {
+  height: 3rem;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  z-index: 1;
+
+  /* animation */
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+ 
+@media(max-width:300px)and(min-width:100px){
+  .nav{
+    object-fit: contain;
+    width: 20vw;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+  }
+
+  .nav_Avtlogo{
+    position: fixed;
+    left:50px;
+    z-index: 2;
+
+  }
+}
+  /* @media(min-width:100px){
+    .nav_Avtlogo{
+      position: fixed;
+      left: 50%;
+      z-index: 2;
+    }
+  } */
+  
+
+.nav_black {
+  background-color: #111;
+}
+.nav_Netlogo {
+  object-fit: fill;
+
+  height: 2rem;
+  left: 130px;
+  position: fixed;
+  top: 0%;
+  left: 20px;
+  padding-top: 5px;
+}
+.nav_Avtlogo {
+  object-fit: fill;
+
+  height: 2rem;
+  position: fixed;
+  right: 25px;
+  padding-top: 5px;
+  width: 50px;
+}
