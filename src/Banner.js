@@ -11,8 +11,11 @@ const Banner = () => {
       let url = `https://api.themoviedb.org/3${requests.fetchNetflixOriginals}`;
 
       const data = await fetch(url);
+      // console.log("this is the json data",data)
 
       const parsedata = await data.json();
+
+      // console.log("this is the parse data",parsedata)
 
       setMovie(
         parsedata.results[Math.floor(Math.random() * parsedata.results.length)]
